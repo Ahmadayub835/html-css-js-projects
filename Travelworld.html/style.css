@@ -1,0 +1,1729 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+ .row{
+    margin-right: 0px!important;
+} 
+p {
+    margin-bottom: 0px;
+}
+
+ul {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+figure{
+    margin: 0 0 0 0!important;
+}
+.bg-home-color {
+    background: #F1F1F1;
+}
+
+.card.hallsat {
+    border: none;
+    border-radius: 16px;
+}
+.card-body h4{
+    font-weight: 600;
+    transition: .5s all;
+}
+.slick-slide {
+    margin-right: 23px;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    position: relative;
+    background-image: url('images/bg-img.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    box-shadow: 0px 0px 50px 0px #000000b3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    height: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    background-color: rgb(254 246 246 / 15%);
+    color: white;
+    width: 223px;
+    height: 48px;
+    padding-left: 58px;
+}
+
+header .menu-icon,
+header .search-icon,
+header .cancel-icon {
+    text-align: center;
+    margin: 0 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.search-bar i {
+    position: absolute;
+    left: 30px;
+    top: 36%;
+    cursor: pointer;
+}
+
+.navbar a,
+.beach a,
+.hotel a,
+.mountain a,
+.desert a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: .5s all;
+}
+
+.login-btn,
+.subscribe-btn {
+    padding: 12px 27px;
+    border: none;
+    background: #004E92;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.best-deal {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 85px;
+    width: 50%;
+    padding-top: 94px;
+    padding-bottom: 32px;
+}
+
+.deals-list {
+    display: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(210 209 209 / 19%);
+    height: 100%;
+    align-items: center;
+    padding: 16px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    width: 80%;
+}
+
+.deals-list>* {
+    cursor: pointer;
+}
+
+.input-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.input-fields i {
+    padding-right: 15px;
+}
+
+.deals-list input {
+    outline: none;
+    border: none;
+    background: none;
+    padding-left: 30px;
+    color: white;
+}
+
+.fa-calendar {
+    position: absolute;
+    left: 24%;
+}
+
+.fa-angle-down {
+    position: absolute;
+    left: 32%;
+}
+
+.down-2 {
+    left: 47%;
+}
+
+i.fa-regular.calendar-2 {
+    left: 37.5%;
+}
+
+input.datepicker {
+    width: 90px;
+    padding-left: 0px;
+}
+
+a.check-in {
+    text-decoration: none;
+    color: white;
+}
+
+.deals-list input::placeholder,
+.search-bar input::placeholder {
+    color: white;
+}
+
+.deals-list i.fa-solid.fa-magnifying-glass {
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}
+
+a.search {
+    position: relative;
+    padding: 12px 45px;
+    border: none;
+    background: #004E92;
+    color: white!important;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul.list-group.tc-list {
+    display: flex;
+    flex-direction: row;
+    padding: 24.5px 0 40px 0;
+    gap: 40px;
+}
+
+.card-wrapper {
+    top: -17px;
+    position: relative;
+}
+
+.slick-dots li button:before {
+    font-size: 16px !important;
+    line-height: 45px !important;
+    color: #2064A0 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #004E92 !important;
+}
+.slick-dots{
+    bottom: -35px!important;
+}
+.top-cat {
+    padding: 60px 0 60px 0;
+}
+.top-cat h1{
+    padding-bottom: 24px;
+}
+#home-tab,
+#profile-tab,
+#contact-tab,
+#mountain-tab {
+    color: white!important;
+    transition: .5s all;
+}
+#home-tab img,
+#profile-tab img,
+#contact-tab img,
+#mountain-tab img{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    transition: .5s all;
+}
+.nav-item:hover img {
+    transform: scaleX(-1);
+    transition: transform 0.5s;
+}
+.beach span {
+    color: white;
+}
+
+.beach .card span {
+    color: black;
+}
+
+.top-content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#beach{
+    display: flex;
+    flex-direction: column-reverse;
+}
+button#profile-tab:hover{
+    outline: none!important;
+}
+.nav-tabs {
+    border: none!important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    position: relative;
+    border: none!important;
+    border-bottom: 1px solid white!important;
+    transition:border-color 1s ease;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: transparent!important;
+    border-bottom: 1px solid!important;
+    border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+.card1 {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px #d2cbcb57;
+    border-radius: 8px;
+    padding: 16px 0 10px 16px;
+}
+
+.card1 {
+    display: none;
+    position: absolute;
+    bottom: -33%;
+    transition: .5s all;
+}
+#myTab{
+    gap: 12px;
+}
+.remove{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 12px;
+    border-radius: 13px;
+    margin-right: 20px;
+}
+
+.remove a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.top-dest {
+    margin-top: 335px;
+}
+.card1 span {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.top-dest h1,
+.special-offers h1,
+.things-need h1,
+.honeymoon-special h1,
+.offers a h1,
+.latest-blogs h1 {
+    font-size: 44px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.top-dest a,
+.things-need a,
+.honeymoon-special a,
+.special-offers a,
+.offers a,
+.card.hallsat a {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    transition: 0.5s all;
+    overflow: hidden;
+}
+
+.slick-slide img {
+    transition: .5s all;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-image {
+    overflow: hidden;
+}
+
+.top-dest h5,
+.special-offers h5,
+.things-need h5,
+.honeymoon-special h5,
+.offers h5,
+.latest-blogs h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    padding: 16px 12% 16px 12%;
+}
+
+.top-dest p,
+.special-offers p,
+.things-need p,
+.honeymoon-special p,
+.offers p,
+.latest-blogs p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.special-offers {
+    position: relative;
+    overflow: hidden;
+}
+
+a:hover {
+    transition: .5s all;
+}
+
+.things-need {
+    padding-top: 65px;
+}
+
+.things-need span {
+    color: #2064A0;
+    font-weight: 600;
+}
+
+.testinomials span {
+    color: #2064A0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card {
+    border-radius: 16px !important;
+    border: none !important;
+    margin-right: 18px !important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 45px !important;
+}
+.slick-next, .slick-prev{
+    transition: .5s all;
+}
+.slick-prev:before {
+    content: '\f053' !important;
+    font-family: 'Font Awesome 6 Free' !important;
+    color: black!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+.slick-next::before {
+    content: '\f054' !important;
+    font-family: 'Font Awesome 6 Free' !important;
+    color: black!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+.slick-next.slick-arrow:hover::before,
+.slick-prev.slick-arrow:hover::before {
+    color: white !important;
+}
+.slick-next.slick-arrow:hover,.slick-prev.slick-arrow:hover {
+    background-color: #004E92!important;
+    transition: .5s all;
+}
+.slick-prev.slick-arrow {
+    border-radius: 50px;
+    height: 44px !important;
+    width: 44px !important;
+    position: relative !important;
+    bottom: -735px;
+    background: white !important;
+    left: 86px !important;
+    z-index: 1;
+}
+
+.slick-next.slick-arrow {
+    border-radius: 50px;
+    height: 44px !important;
+    width: 44px !important;
+    position: relative !important;
+    bottom: 109px;
+    background: white !important;
+    left: 160px;
+}
+
+.rating p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.card2 {
+    position: relative;
+    padding: 24px 32px 14px 32px;
+    box-shadow: 1px 1px 25px #f5f4f4;
+    background: white;
+    backdrop-filter: opacity(0.5);
+}
+
+.vector-line img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    bottom: 3px;
+    height: -webkit-fill-available;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title a:hover {
+    color: #2064A0;
+}
+
+.rating {
+    display: flex;
+    align-items: flex-start;
+}
+
+.book {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    padding: 23px 0px 10px 0px;
+}
+
+.book img {
+    position: relative;
+    left: 15px;
+    bottom: 8px;
+}
+
+.book li span {
+    display: flex;
+    font-size: 12px;
+    color: #7DA4C6;
+}
+
+.flights a>img {
+    width: 20px;
+}
+
+.days-trip {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 24px 13px;
+}
+
+.days-trip h3 {
+    font-size: 24px;
+    color: #1E285F;
+    font-weight: 600;
+}
+
+.days-trip span {
+    color: #2064A0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.signup h3 {
+    padding: 23px 0 12px 0;
+    font-size: 24px;
+}
+
+.signup-para p {
+    padding: 0;
+    text-align: initial;
+}
+
+.offers {
+    position: relative;
+    padding: 70px 0px 20px 0px;
+}
+
+div#offer {
+    margin-top: -47px;
+}
+
+.offers-img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    transition: .5s all;
+}
+
+.offers-img>img {
+    width: 100%;
+    height: auto;
+}
+
+.offers p {
+    text-align: center;
+    padding: 16px 14% 16px 14%;
+    line-height: 32px;
+}
+
+.offers-img {
+    background-image: url('images/mos.png');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px !important;
+}
+
+.responsive2 {
+    padding-right: 0 !important;
+}
+
+.card.hallsat,
+.card #hallsat {
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.slick-slide {
+    margin-right: 0;
+}
+
+.offers-layer {
+    position: absolute;
+    top: 371px;
+    width: 60%;
+    text-align: left;
+    padding-left: 80px;
+    color: white;
+}
+
+.offers-layer h1 {
+    line-height: 66px;
+    text-align: left;
+}
+
+.offers-layer .blog-para {
+    padding: 8px 0 32px 0;
+    text-align: left;
+    font-size: 18px;
+}
+
+.offers-layer a {
+    text-decoration: none;
+    color: #2064A0;
+    font-weight: bolder;
+    background-color: white;
+    margin-top: 32px;
+    padding: 12px 33px;
+    border-radius: 32px;
+}
+
+.btn {
+    padding: 0.375rem 1.5rem;
+}
+
+.testinomials {
+    background: #F1F1F1;
+}
+
+.bg-wave {
+    width: 100%;
+    background: #F1F1F1;
+    padding-top: 120px;
+}
+
+.bg-wave-2 {
+    width: 100%;
+    background: #F1F1F1;
+    padding-bottom: 120px;
+}
+
+.policy a {
+    text-decoration: none;
+    color: #2064A0;
+}
+
+.input {
+    width: 425px;
+    height: 50px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding-left: 14px;
+}
+
+.policy {
+    padding-top: 16px;
+}
+
+.policy span {
+    color: #2064A0;
+}
+
+.latest-blogs a {
+    text-decoration: none;
+    color: black;
+}
+
+.latest-blogs a:hover {
+    color: #2064A0;
+}
+
+.latest-blogs img {
+    transition: 0.3s ease-out;
+}
+
+#blog-row:hover .blog-img img {
+    transform: scale(1.2) rotate(3deg);
+    transition: .5s all;
+    cursor: grabbing;
+}
+
+#blog-row span {
+    color: #2064A0;
+    font-weight: 700;
+}
+
+.latest-blogs h4 {
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 18px;
+    transition: .3s all;
+    padding-bottom: 8px;
+}
+
+.london {
+    position: relative;
+    padding-top: 16px;
+}
+
+.calendar {
+    position: absolute;
+    padding-top: 3px;
+    width: 69px;
+    height: 69px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    right: 25px;
+    bottom: 227px;
+}
+
+#blog-row {
+    position: relative;
+    padding-bottom: 75px;
+    overflow: hidden;
+}
+
+.blog-img {
+    overflow: hidden;
+}
+
+.testinomial-para {
+    background: #004E92;
+    color: white;
+    border-radius: 10px;
+    padding: 27px 68px 34px 34px;
+}
+
+.testinomial-para .test-para {
+    line-height: 32px;
+}
+
+
+main {
+    margin-top: 50px;
+    height: calc(100vh - 0px);
+    position: relative;
+    overflow: hidden;
+}
+
+#navbar {
+    position: absolute;
+    top: 70%;
+}
+
+#navbar2 {
+    position: absolute;
+    left: 80px;
+    bottom: 20%;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .7s all;
+}
+
+button#prev,
+button#next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+.stay-loop {
+    color: grey;
+}
+
+.mike-name {
+    padding-left: 27px;
+}
+
+.mike-img {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    padding: 80px 0 20px 0;
+}
+
+.footer-para-logo-para {
+    padding: 24px 0 24px 0;
+}
+
+.footer-social i {
+    width: 40px;
+    height: 40px;
+    color: #004E92;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: .4s all;
+}
+
+.footer-social i:hover {
+    background-color: #004E92;
+    color: white;
+    transition: .4s all;
+}
+
+ol,
+ul {
+    padding-left: 0 !important;
+}
+
+.footer-list {
+    list-style: none;
+    transition: .3s all;
+}
+.footer-list a:hover {
+    color: #2064A0;
+}
+
+
+.footer-li {
+    display: flex;
+    align-items: baseline;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.contact-info {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.footer-list li a {
+    list-style: none;
+    text-decoration: none;
+    line-height: 41px;
+    color: black;
+}
+
+.divider {
+    height: 1px;
+    background-color: #B3B3B3;
+    margin: 60px 0 40px 0;
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.copy-right a {
+    color: #B3B3B3;
+}
+
+b {
+    line-height: 46px;
+    font-size: 18px;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-location-dot,
+.fa-clock {
+    color: #004E92;
+    padding-right: 12px;
+}
+.scrollbtn{
+    display: none;
+    align-items: center!important;
+    justify-content: center!important;
+    position: fixed;
+    border: none;
+    bottom: 30px;
+    color: white;
+    font-size: 16px;
+    right: 30px;
+    background-color: #2064A0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    transition: .3s all;
+}
+.scrollbtn:hover{
+background: #3a3939;
+transition: .3s all;
+}
+
+.loader-container {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #004E92;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+}
+.loader{
+    background-color: #fff;
+    animation: loader 1.2s infinite ease-in-out;
+    width: 46px;
+    height: 46px;
+}
+/*Sign up form css */
+#form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name,.email,.password{
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 0 0;
+
+}
+ button, input, optgroup, select, textarea{
+    padding: 11px 14px;
+    border-radius: 8px;
+    border: 1px solid #dbd8d8;
+    outline: none;
+}
+ #myinput:focus::placeholder {
+    color: transparent;
+    transition: .5s all;
+}
+
+.already-account a, .forgot-pw{
+    text-decoration: none;
+    font-size: 12px;
+    color: #004E92;
+}
+label{
+    padding-bottom: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sign-head{
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 32px;
+    text-align: center;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+}
+.check-form{
+    padding-top: 16px;
+}
+#forgot-pass{
+    padding-left: 80px;
+}
+.already-account{
+    font-size: 12px; 
+    font-weight: 500;
+    padding-left: 73px;
+}
+.or-bar{
+    padding-top: 24px;
+}
+.or-bar h5{
+    position: relative; 
+    text-align: center;
+}
+.or-bar h5::before {
+    content: "";
+    position: absolute;
+    background-color: #DADADA;
+    width: 40%;
+    height: 1px;
+    left: 0;
+    top: 46%;
+}
+
+.or-bar h5::after {
+    content: "";
+    position: absolute;
+    background-color: #DADADA;
+    width: 40%;
+    height: 1px;
+    right: 0;
+    top: 46%;
+}
+.social-icons{
+    width: 70%;
+    text-align: center;
+    display: flex; 
+    padding: 16px 0px 16px 94px;
+}
+.social-icons a, .social-icons li{
+text-decoration: none;
+list-style: none;
+}
+.create-account-btn{
+    padding: 14px 111.5px 14px 111.5px;
+    background: #004E92;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.travel-img{
+    width: 100%;
+    height: auto;
+}
+.bread-crumb{
+    padding-top: 32px;
+    padding-bottom: 54px;
+    margin: 0;
+}
+#bread-header{
+    color: black;
+}
+.tab-content>.active{
+    display: flex!important;
+    position: absolute;
+    margin-top: 25px;
+    color: black;
+}
+
+#tab1{
+    padding: 20px 0 20px 20px;
+}
+#tab1,#tab2,#tab3{
+    margin-left: 20px;
+    box-shadow: 0 0 40px 5px #ece5e5;
+}
+.myprofile-form input[type="text"],
+.myprofile-form input[type="email"],
+.myprofile-form input[type="tel"],
+.myprofile-form select,
+.myprofile-form input[type="date"],
+.myprofile-form input[type="textbox"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+#dash-head-list li a{
+text-decoration: none;
+color: black;
+margin-right: 30px;
+transition: .5s all;
+}
+#dash-head-list li a:hover{
+color:#2064A0;
+}
+#search-bar input{
+    border-radius: 45px;
+    background: #E5EDF4;
+}
+#search-bar input::placeholder{
+    padding-left: 20%;
+}
+#search-bar i{
+    position: absolute;
+    left: 30px;
+    top: 36%;
+    cursor: pointer;
+}
+.dash-main-img img{
+    width: 100%;
+}
+.myprofile-form{
+    padding-top: 32px;
+    padding-bottom: 76px;
+    transition: .5s all;
+}
+#alex-main{
+    box-shadow: 0 0 40px 5px #ece5e5;
+    padding:32px 0 40px 0;
+}
+.alex-profile{
+    text-align: center;
+}
+.profile-img i{
+    position: absolute;
+    top: 65%;
+    left: 54%;
+    width: 32px;
+    height: 32px;
+    background-color: #1E285F;
+    border-radius: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-link a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #555555;
+    line-height: 55px;
+    padding-left: 30px;
+}
+#nav-link a:focus,#nav-link a.active {
+    background: #2064A0;
+    color: white;
+}
+#profile-list{
+    margin-left: 16px;
+}
+#my-booking ,#tab2{
+    padding: 32px;
+}
+.my-book-h2{
+font-size: 20px;
+}
+#book-image{
+    padding: 0;
+    width: 22%;
+}
+#book-text{
+    padding: 0;
+}
+#bookings{
+    padding: 0;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.05);
+}
+.book-card-1{
+    display: flex;
+    align-items: center;
+  }
+  #book-card-1{
+    margin-top: 32px;
+  }
+  .cvk-park,.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cvk-park h3, .cvk-park h4 {
+    font-size: 16px;
+  }
+  .location-tag{
+    display: flex;
+    align-items: baseline;
+  }
+  .location-h3{
+    font-size: 12px; 
+    font-weight: 400;
+  }
+  .location-h4{
+    font-size: 14px;
+  }
+  .rating-star-num{
+    font-size: 14px;
+  }
+  .rating-result{
+    font-size: 12px; 
+    font-weight: 600;
+  }
+  .rating-review{
+    font-weight: 400!important; 
+    font-size: 12px;
+  }
+
+  .location i{
+    color: #B3B3B3;
+  }
+  .rating-tag{
+    display: flex;
+    justify-content: space-between;
+  }
+  .rating-tag span{
+    color: #004E92;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .rating-star{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+    .book-card-content .book-1-img {
+    margin-bottom: 10px; 
+  }
+  
+.book-1{
+    background: white;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.05);
+    padding: 16px 46px 16px 16px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+.break-hr{
+    width: 60%;
+    color: #B3B3B3;
+}
+.confirmation-para{
+    font-size: 14px;
+    line-height: 28px;
+}
+.stay-booking{
+    font-size: 16px;
+}
+#myVerticalTabsContent>.active {
+    position: relative;
+    display: block!important;
+    margin: 0;
+    margin-left: 20px;
+}
+.explore{
+    display: flex;
+    position: relative;
+    transform: rotate(-8deg) skew(-10deg);
+}
+.exp-your{
+    position: absolute;
+    left: 36%;
+    top: 52%;
+    font-size: 45px;
+    font-weight: 300;
+}
+.explore h2{
+    font-size: 50px;
+}
+.explore-special{
+    position: absolute;
+    top: 52%;
+    font-size: 50px;
+    left: 13%;
+    transform: rotate(-8deg);
+}
+.exp-world{
+    position: absolute;
+    top: 31%;
+    transform: rotate( -8deg ) skewX(-10deg);
+    font-size: 150px;
+    font-weight: 600;
+    color: #F4BA1B;
+}
+.discount-image{
+    width: 100%;
+}
+.off-discount{
+    position: relative;
+    top: 47%;
+    left: 53%;
+}
+.off-discount h3{
+    transform: rotate(-90deg);    
+    display: inline-table;
+    font-size: 13px;
+}
+.off-discount h2{
+    margin-top: 20px;
+    margin-left: 47px;
+    font-weight: 700;
+}
+.off-discount span{
+    position: absolute;
+    font-size: 85px;
+    top: -47px;
+    left: 41px;
+    font-weight: 600;
+    color: #F4BA1B;
+}
+.booknow-btn{
+    position: relative;
+    top: 54%;
+    left: 20%;
+}
+.booknow-btn a{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 50px;
+    padding: 15px 45px;
+    transition: .5s all;
+    font-weight: 800;
+}
+.booknow-btn a:hover{
+    color: white;
+    background: #F4BA1B;
+}
+@keyframes loader{
+0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+}
+
+50% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+}
+100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+}
+}
+  
+@media (max-width:1120px) {
+    .slick-prev{
+        bottom: -773px;
+    }
+    .slick-next.slick-arrow{
+        bottom: 70px;
+    }
+    .signin-form{
+    padding: 60px 0 0 0px;
+    }
+}
+@media (max-width:1200px) {
+    .logo {
+        flex: 2;
+        text-align: center;
+    }
+    ul.navbar {
+        display: inline-block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        color: white;
+        transition: .4s all;
+    }
+
+    .ul-navbar {
+        left: 0;
+    }
+
+    ul.navbar li {
+        display: grid;
+        line-height: 45px;
+    }
+
+    ul.navbar li a {
+        font-size: 20px;
+    }
+
+    .search-bar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        z-index: 1000;
+    }
+
+    header .menu-icon,
+    header .search-icon {
+        display: block;
+    }
+
+    .deals-list {
+        justify-content: space-between;
+        gap: 0;
+        width: 100%;
+    }
+    .calendar{
+        bottom: 247px;
+    }
+    #dash-head-list li a{
+        color: white;
+    }
+}
+@media only screen and (max-width:991px) {
+    .subscribe-btn {
+        margin: 30px 0 0 0px;
+    }
+    .subscribe-btn {
+        display: block;
+    }
+
+    .col-lg-4.col-md-6:nth-child(3) .card2 {
+        margin-top: 25px;
+    }
+
+    .deals-list input.place-search {
+        width: 20%;
+    }
+    .calendar{
+        bottom: 217px;
+    }
+    .signin-form{
+        padding: 30px 0 0 25px;
+    }
+    .profile-details p{
+        font-size: 12px;
+    }
+    #nav-link a{
+        padding-left: 7px;
+        font-size: 14px;
+        gap: 7px;
+    }
+    .location-h3
+,.location-h4{
+    font-size: 10px;
+}
+.rating-tag span{
+    font-size: 14px;
+}
+.rating-star-num
+,.rating-result
+,.rating-review{
+    font-size: 10px;
+}
+#book-text{
+    padding-top: 10px;
+}
+.discount-image{
+display: none;
+}
+}
+
+@media only screen and (max-width:768px) {
+    .best-deal {
+        width: 100%;
+    }
+
+    .col-lg-4.col-md-6:nth-child(2) .card2 {
+        margin-top: 25px;
+    }
+
+    .testinomials p,
+    .testinomials h1 {
+        width: 100% !important;
+    }
+
+    a.search {
+        padding: 11px 33px;
+    }
+    .slick-next, .slick-prev{
+        transform: translate(0,48%);
+    }
+    .slick-dots{
+        bottom: -78px!important;
+    }
+    #mountain-tab{
+        margin-top: 0;
+    }
+    .travel-img{
+        display: none;
+    }
+    .already-account{
+    padding-top: 20px;
+}
+#search-bar,.search-bar{
+display: none;
+}
+#myVerticalTabsContent>.active{
+    margin-top: 15px;
+}
+#nav-link a{
+    justify-content: center;
+}
+}
+@media only screen and (max-width:676px) {
+    .deals-list {
+        display: none;
+    }
+    .calendar {
+        bottom: 210px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .top-dest h5,
+    .special-offers h5,
+    .things-need h5,
+    .honeymoon-special h5,
+    .offers h5,
+    .latest-blogs h5 {
+        padding: 16px 0;
+        text-align: left;
+        font-size: 18px;
+    }
+    .calendar {
+        bottom: 189px;
+        }
+
+        [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+            margin: 53px 0 0 0px;
+        }
+        .slick-prev.slick-arrow{
+            bottom:-827px;
+        }
+        .offers-layer{
+            top: 252px;
+        }
+        .slick-next, .slick-prev{
+            display: none;
+        }
+        .row{
+            margin-right: 0px!important;
+        }
+        .explore-special{
+            top: 65%;
+            font-size: 25px;
+        }
+        .exp-world{
+            font-size: 80px;
+            top: 52%;
+        }
+        .exp-your{
+            font-size: 32px;
+            left: 21%;
+            top: 13%;
+        }
+        
+}
+@media only screen and (max-width:450px) {
+    .explore h2 {
+        font-size: 25px!important;
+    }
+    
+    .exp-your {
+        font-size: 20px!important;
+        left: 31%!important;
+        top: 8%!important;
+    }
+    .exp-world {
+        font-size: 59px!important;
+        top: 50%!important;
+    }
+    .explore-special {
+        top: 60%!important;
+        font-size: 20px!important;
+    }
+    .off-discount span{
+    left: 34px!important;
+    font-size: 65px!important;
+    }
+    .off-discount h2{
+    margin-left: 39px!important;
+    }
+}
+@media only screen and (max-width:576px) {
+    .input {
+        width: 320px;
+    }
+
+    .top-dest h5,
+    .special-offers h5,
+    .things-need h5,
+    .honeymoon-special h5,
+    .offers h5,
+    .latest-blogs h5 {
+        padding: 16px 0px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #blog-row {
+        padding-bottom: 25px;
+    }
+
+    .calendar {
+        display: none;
+    }
+
+    .top-dest h1,
+    .special-offers h1,
+    .things-need h1,
+    .honeymoon-special h1,
+    .offers a h1,
+    .latest-blogs h1 {
+        font-size: 33px;
+    }
+
+    .card2 {
+        padding: 20px;
+    }
+
+    .testinomials {
+        padding: 30px 0;
+    }
+
+    .testinomial-para {
+        padding: 27px 22px 27px 22px;
+    }
+
+    .offers-layer {
+        top: 303px;
+        width: 90%;
+    }
+    .slick-prev.slick-arrow{
+        bottom: -826px;
+    }
+    .slick-next, .slick-prev{
+        transform: translate(0,-158%)!important;
+    }
+    .offers-layer h1{
+        line-height: 50px;
+    }
+    .remove{
+        display: none;
+    }
+    .remove a{
+        font-size: 14px;
+    }
+    #mountain-tab{
+        display: none;
+    }
+    .book-1{
+    padding: 16px 16px 16px 16px;
+}
+.confirmation-para{
+    font-size: 12px;
+}
+}
+@media only screen and (max-width:490px) {
+    .signin-form{
+        padding-left: 14%;
+    }
+    .or-bar{
+        width: 85%;
+    }
+    .create-account-btn {
+    padding: 14px 80.5px 14px 80.5px;
+    }
+    .or-bar h5::before{
+        width: 100px;
+    }
+    .or-bar h5::after{
+        width: 100px;
+    }
+}
+@media only screen and (max-width:495px) {
+    .signin-form {
+    padding-left: 6%;
+}
+#forgot-pass {
+    padding-left: 78px;
+}
+}
+@media only screen and (max-width:1200px) {
+    #explore-container{
+        padding-bottom: 150px;
+    }
+    .exp-your{
+        font-size: 40px;
+        left: 41%;
+        top: 51%;
+    }
+    .exp-world{
+        font-size: 130px;
+        top: 32%;
+    }
+    .explore-special{
+        top: 48%;
+        font-size: 36px;
+    }
+    /* .off-discount h2{
+        margin-top: 0px;
+    } */
+}
+@media screen and (min-width: 567px) and (max-width: 768px) {
+    .slick-next, .slick-prev{
+    transform: translate(0,-147%)!important;
+    }
+    .offers-layer{
+        padding: 80px;
+    width: 100%;
+    }
+    .remove a{
+        font-size: 14px;
+    }
+    .booknow-btn{
+        top: 72%;
+        }
+        .explore h2 {
+            font-size: 50px;
+        }
+        .exp-your {
+            font-size: 35px;
+            left: 28%;
+            top: 21%;
+        }
+        .exp-world {
+            font-size: 95px;
+            top: 52%;
+        }
+        .explore-special {
+            top: 67%;
+            font-size: 31px;
+        }        
+}
+@media screen and (min-width: 767px) and (max-width: 1121px) {
+    .slick-prev.slick-arrow{
+        bottom: -774px;
+    }
+    .offers-layer{
+        top: 310px;
+    }
+}

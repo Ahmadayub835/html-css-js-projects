@@ -1,0 +1,155 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+    display: inline;
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+}
+.logo a{
+    color: black;
+}
+
+.logo>li{
+    padding:0 10px;
+    font-size: 25px;
+}
+.cart{
+    padding:10px 20px;
+    color:#F2854C;
+    border:2px solid #F2854C;
+    border-radius: 1px;
+    text-decoration: none;
+}
+
+.cart:hover{
+    background-color: #F2854C;
+    color: white;
+}
+.booking{
+    display: inline;
+    list-style: none;
+    display: flex;
+}
+
+.booking a{
+    text-decoration: none;
+    color: black;
+}
+.booking li{
+    padding:8px 10px 0px;
+}
+
+.main-image>img{
+    width: 100%;
+}
+
+.intro-line>h2{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.intro-line>img{
+    margin-top: 0%;
+    margin-left: 50%;
+
+}
+
+.buy-now{
+    text-align: center;
+}
+    .buy-now p{
+        margin-top: 20px;
+    }
+.buy-now>button{
+    display: inline-block;
+    padding: 8px 50px;
+    background-color: rgb(255, 137, 3);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.main-div{
+    padding:100px 0 0  4%;
+}
+
+.parent-div img{
+    width:26px;
+    float: left;
+    margin: 6px 17px 0 0;
+}
+
+.parent-div2>p{
+    text-align: center;
+    margin-right: 0%;
+}
+
+.company{
+    list-style: none;
+    display: flex;
+    align-content: space-around;
+}
+
+.company>li{
+    align-content: space-around;
+}
+
+.my-list{
+    padding:2px;
+}
+
+.company a{
+    text-decoration: none;
+    color: black;
+    padding:10px;
+}
+
+.comp-lg{
+    font-size: 23px;
+    margin: -6px 0 0px;
+}
+.social{
+padding: 3px;
+}
+
+.social-list li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 70%; 
+    text-align: center;
+    line-height: 38px;
+    color: black;
+}
+
+    .social-list li:hover{
+        background-color: black;
+        color: white;
+    }
+.social-list{
+    margin: -7px 8px;
+    list-style: none;
+    color: black;
+}
+
+.footer{
+    text-align: center;
+    background-color: #2680A5;
+    color: white;
+    display: grid;
+    padding: 19px;
+}
+
+.footer>p{
+    padding-top: 12px;
+}
+
+.footer a{
+    color: white;
+}
